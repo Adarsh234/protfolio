@@ -16,7 +16,7 @@ const Skills = () => {
     <>
       <div className="container skills-page">
         <div className="text-zone">
-          <h1>
+          <h1 className='text'>
             <AnimatedLetter
               letterClass={letterClass}
               strArray={['M', 'y', ' ', 'S', 'k', 'i', 'l', 'l', 's']}
