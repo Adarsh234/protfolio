@@ -105,8 +105,9 @@
 
 @media (max-width: 400px) {
   .container.skills-page{
-    width: 20%;
-    right: -130px;
+    // width: 20%;
+    // right: -130px;
+    overflow-x: hidden;
   }
   .buttons{
     grid-template-columns: repeat(2, minmax(50px, 1fr));
