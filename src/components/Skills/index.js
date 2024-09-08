@@ -39,23 +39,23 @@ const Skills = () => {
           <div className="topic">
             <h1>BackEnd</h1>
             <div className="buttons">
-              <button>HTML</button>
-              <button>CSS</button>
-              <button>JavaScript</button>
-              <button>ReactJS</button>
+              <button>Node.Js</button>
+              <button>Express.Js</button>
+              <button>Rest API</button>
+              {/* <button>ReactJS</button>
               <button>TailWind</button>
-              <button>TypeScript</button>
+              <button>TypeScript</button> */}
             </div>
           </div>
           <div className="topic">
             <h1>DataBase</h1>
             <div className="buttons">
-              <button>HTML</button>
-              <button>CSS</button>
-              <button>JavaScript</button>
+              <button>MongoDB</button>
+              <button>SQl</button>
+              {/* <button>JavaScript</button>
               <button>ReactJS</button>
               <button>TailWind</button>
-              <button>TypeScript</button>
+              <button>TypeScript</button> */}
             </div>
           </div>
           <div className="topic">
