@@ -1,0 +1,52 @@
+.about-page {
+  .text-zone {
+    width: 40%;
+  }
+}
+
+.profile {
+  z-index: 0;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: -120px;
+  right: 10%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  overflow: visible;
+
+  .img {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    border-radius: 15px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .profile {
+    display: none;
+  }
+  .container {
+    position: relative;
+    width: 90%;
+    margin-top: 60px;
+    transform: none;
+    padding: 10px;
+    margin-left: -10px;
+    padding-bottom: 58px;
+    bottom: auto;
+  }
+  tags,
+  .about-page h1:before {
+    display: flex;
+    position: relative;
+    margin-left: -10px;
+    top: 0;
+  }
+}
