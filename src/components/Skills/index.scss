@@ -20,16 +20,17 @@
 }
 
 .topic {
-  background-color: #1a1a1a; /* Slightly lighter than the background */
+  background-color: #1E1E24; /* Slightly lighter than the background */
   border-radius: 15px;
   padding: 15px;
   margin: 5px;
   text-align: left;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional shadow for depth */
+  box-shadow: 0 0 70px rgba(0, 0, 0, 0.7); /* Optional shadow for depth */
 }
 
 .topic h1 {
   color: yellow;
+  margin-top: 10px;
   margin-bottom: 15px;
   font-size: 26px;
   font-weight: 400;
@@ -74,6 +75,7 @@
     margin-left: -10px;
     padding-bottom: 58px;
     bottom: auto;
+    overflow-x: hidden;
   }
   tags,
   .skills-page h1:before{
@@ -81,13 +83,17 @@
     position: relative;
     margin-left: 10px;
     top: 0;
+    overflow-x: hidden;
   }
 
   .skills-page {
     .text-zone {
       margin-top: 15px;
-      margin-left: 80px;
+      margin-left: 70px;
     }
+  }
+  .topic{
+    width: 60%;
   }
 
   .a1 {
@@ -95,7 +101,11 @@
     margin-left: 120px;
     margin-top: 40px;
     margin-bottom: 20px;
-    width: 60%;
+    // width: 40%;
+  }
+  .buttons{
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    // width: 90%;
   }
 
   .text{
@@ -114,5 +124,8 @@
   }
   .topic{
     width: 70%;
+  }
+  .text-zone{
+    overflow-x: hidden;
   }
 }
