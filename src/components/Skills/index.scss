@@ -116,16 +116,18 @@
 @media (max-width: 400px) {
   .container.skills-page{
     // width: 20%;
-    // right: -130px;
+    // right: -30px;
     overflow-x: hidden;
+  }
+  .text{
+    margin-left: 30px;
   }
   .buttons{
-    grid-template-columns: repeat(2, minmax(50px, 1fr));
+    grid-template-columns: repeat(1, minmax(20px, 250px));
   }
   .topic{
-    width: 70%;
-  }
-  .text-zone{
-    overflow-x: hidden;
+    width: 45%;
+    margin-left:  30px;
+
   }
 }
